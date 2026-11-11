@@ -1,0 +1,38 @@
+:root {
+  /* Fundo e base */
+  --bg-primary: #0e0f0a;
+  --bg-secondary: #171812;
+  --bg-surface: #1c1e14;
+  --bg-panel: #1b1d14;
+  --bg-hover: #292012;
+
+  /* Acentos */
+  --accent-primary: #f37315;
+  --accent-light: #ff8a3d;
+  --accent-deep: #d96c1b;
+
+  /* Texto */
+  --text-primary: #f5f0e8;
+  --text-secondary: #d8c7b3;
+  --text-inverse: #ffffff;
+
+  /* Bordas e sombras */
+  --border-accent: rgba(243, 115, 21, 0.7);
+  --shadow-soft: rgba(0, 0, 0, 0.35);
+
+  /* Gradientes */
+  --gradient-header: linear-gradient(
+    rgba(16, 17, 4, 0.55),
+    rgba(16, 17, 4, 0.95)
+  );
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-primary);
+}

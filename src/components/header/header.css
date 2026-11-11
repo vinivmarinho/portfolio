@@ -1,0 +1,169 @@
+/*  ===========================================
+    div principal
+    ===========================================
+*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+  
+  background-image: var(--gradient-header),  url("../../assets/Fundo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.logo {
+    width: 70px;
+    height: 50px;
+}
+
+/*  ===========================================
+    Container do menu de navegação
+    ===========================================
+*/
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menu-button {
+  background-color: transparent;
+  cursor: pointer;
+  color: var(--text-primary);
+  border: 2px solid var(--accent-primary); 
+  border-radius: 20%;
+  padding: 3px;
+}
+
+/*  ===========================================
+    Lista de links
+    ===========================================
+*/
+
+.nav-links {
+  display: none;
+  list-style: none;
+
+  background-color: var(--bg-surface);
+  border-radius: 12px;
+
+  
+}
+
+.nav-links.active {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.nav-links li {
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  font-weight: 500;
+  line-height: 1.4;
+
+  padding: 0.75rem 0.9rem;
+  border-radius: 8px;
+
+  cursor: pointer;
+  transition: 0.2s ease;
+
+}
+
+.nav-links li:hover {
+  color: var(--accent-primary);
+  background-color: var(--bg-hover);
+}
+
+/*  ===========================================
+    Versão Tablet
+    ===========================================
+*/
+@media (min-width: 768px) {
+  /*  ===========================================
+    div principal
+    ===========================================
+  */
+  .header {
+    flex-direction: column;
+  }
+  /*  ===========================================
+      Container da Logo
+      ===========================================
+  */
+  .logo-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo {
+    width: 80px;
+    height: 60px;
+  }
+
+  /*  ===========================================
+      Container do Menu de navegação
+      ===========================================
+  */
+  .menu-button {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 700px;
+    gap: 10px;
+    padding: 5px;
+  }
+
+  .nav-links li {
+    font-size: 1rem;
+    padding: 0.8rem 1rem;
+  }
+
+  .nav-links.active {
+    flex-direction: row;
+    gap: 1rem;
+  }
+}
+
+
+/*  ===========================================
+    Versão Desktop
+    ===========================================
+*/
+
+@media (min-width: 1024px) {
+  .nav-links {
+    width: 1000px;
+  }
+
+  .nav-links li {
+    font-size: 1.125rem;
+    padding: 0.9rem 1.25rem;
+  }
+}
+
+
+
+
+
+/* 
+background:
+    radial-gradient(
+      ellipse at 20% 20%,
+      rgba(243, 115, 21, 0.10),
+      transparent 50%
+    ),
+    linear-gradient(
+      135deg,
+      #211A0D,
+      #18150A 75%
+    );
+*/
