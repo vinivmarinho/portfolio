@@ -1,0 +1,124 @@
+/*  ===========================================
+    div principal
+    ===========================================
+*/
+.personal-introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+/*  ===========================================
+    Foto
+    ===========================================
+*/
+.picture {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+}
+
+/*  ===========================================
+    Container da apresentação
+    ===========================================
+*/
+
+.short-presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    color: var(--text-primary);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.greeting {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+}
+
+.name {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--accent-primary);
+    line-height: 1.2em;
+}
+
+.linkedin-button {
+  background: var(--accent-primary);
+  color: black;
+  width: 150px;
+  padding: 10px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+/*  ===========================================
+    Versão Tablet
+    ===========================================
+*/
+@media (min-width: 768px) {
+    .personal-introduction {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 18px;
+    }
+
+    .picture {
+        width: 130px;
+        height: 130px;
+    }
+
+    .short-presentation {
+        gap: 10px;
+    }
+
+    .greeting {
+        font-size: 0.9rem;
+        letter-spacing: 0.04em;
+        color: var(--text-secondary);
+    }
+
+    .name {
+        font-size: clamp(1.7rem, 7vw, 2.5rem);
+        color: var(--accent-light);
+        font-weight: 700;
+    }
+
+    .role {
+        font-size: 1rem;
+        color: var(--text-primary);
+        font-weight: 500;
+    }
+
+    .linkedin-button {
+        width: 100%;
+        max-width: 220px;
+        font-size: 0.95rem;
+        font-weight: 600;
+        color: #111111;
+    }
+}
+
+/*  ===========================================
+    Versão Desktop
+    ===========================================
+*/
+@media (min-width: 1024px) {
+    .picture {
+        width: 180px;
+        height: 180px;
+    }
+    .greeting {
+        font-size: 1.1rem;
+    }
+}

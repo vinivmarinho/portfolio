@@ -2,17 +2,22 @@
     div principal
     ===========================================
 */
-.header {
+.main-header {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   position: relative;
   overflow: hidden;
-  padding: 20px;
+  padding: 10px;
   
   background-image: var(--gradient-header),  url("../../assets/Fundo.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
 }
 
 .logo {
@@ -88,7 +93,7 @@
     div principal
     ===========================================
   */
-  .header {
+  .header-top{
     flex-direction: column;
   }
   /*  ===========================================
@@ -149,21 +154,3 @@
     padding: 0.9rem 1.25rem;
   }
 }
-
-
-
-
-
-/* 
-background:
-    radial-gradient(
-      ellipse at 20% 20%,
-      rgba(243, 115, 21, 0.10),
-      transparent 50%
-    ),
-    linear-gradient(
-      135deg,
-      #211A0D,
-      #18150A 75%
-    );
-*/
