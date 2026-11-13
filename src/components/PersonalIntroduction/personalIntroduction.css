@@ -8,8 +8,8 @@
     align-items: center;
     text-align: center;
     margin: auto;
-    margin-top: 10px;
-    gap: 5px;
+    margin-top: 6px;
+    gap: 4px;
 }
 
 /*  ===========================================
@@ -34,7 +34,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    gap: 10px;
+    gap: 6px;
     color: var(--text-primary);
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -55,7 +55,7 @@
   background: var(--accent-primary);
   color: black;
   width: 150px;
-  padding: 10px;
+  padding: 8px 10px;
   border-radius: 12px;
   border: none;
   cursor: pointer;

@@ -7,7 +7,7 @@
   flex-direction: column;
   position: relative;
   overflow: hidden;
-  padding: 10px;
+  padding: 8px 10px 6px;
   
   background-image: var(--gradient-header),  url("../../assets/Fundo.jpg");
   background-size: cover;
@@ -17,7 +17,7 @@
 .header-top {
   display: flex;
   justify-content: space-between;
-  padding: 5px;
+  padding: 2px 5px;
 }
 
 .logo {
@@ -32,7 +32,7 @@
 .menu-container {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 6px;
 }
 
 .menu-button {
@@ -71,7 +71,7 @@
   font-weight: 500;
   line-height: 1.4;
 
-  padding: 0.75rem 0.9rem;
+  padding: 0.55rem 0.7rem;
   border-radius: 8px;
 
   cursor: pointer;
@@ -123,18 +123,18 @@
     justify-content: center;
     margin: auto;
     width: 700px;
-    gap: 10px;
-    padding: 5px;
+    gap: 8px;
+    padding: 0;
   }
 
   .nav-links li {
     font-size: 1rem;
-    padding: 0.8rem 1rem;
+    padding: 0.65rem 0.85rem;
   }
 
   .nav-links.active {
     flex-direction: row;
-    gap: 1rem;
+    gap: 0.75rem;
   }
 }
 
@@ -151,6 +151,6 @@
 
   .nav-links li {
     font-size: 1.125rem;
-    padding: 0.9rem 1.25rem;
+    padding: 0.75rem 1rem;
   }
 }

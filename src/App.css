@@ -36,3 +36,12 @@
 body {
     background-color: var(--bg-primary);
 }
+
+.main-div {
+  width: min(1100px, 90vw);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px auto 0;
+  align-items: center;
+}

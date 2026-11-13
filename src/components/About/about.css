@@ -1,0 +1,51 @@
+/*  ===========================================
+    Div Principal
+    ===========================================
+*/
+.about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--text-primary);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding: 10px;
+}
+
+.about-title {
+    color: var(--accent-primary);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.about-description-mobile {
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.about-description {
+    display: none;
+}
+@media (min-width: 768px) {
+    .about-title {
+        font-size: 1.8rem;
+    }
+
+    .about-description {
+        font-size: 1rem;
+        display: block;
+    }
+    .about-description-mobile {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+    .about-title {
+        font-size: 2.2rem;
+    }
+
+    .about-description {
+        font-size: 1.15rem;
+    }
+}
