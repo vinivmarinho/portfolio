@@ -1,7 +1,7 @@
 import "./about.css";
 export default function About() {
     return(
-        <div className="about-container">
+        <div className="about-container" id="about">
             <h2 className="about-title">Sobre Mim</h2>
             
             <p className="about-description-mobile">Sou estudante de Análise e Desenvolvimento de Sistemas e desenvolvedor Full Stack em formação. Tenho experiência prática com JavaScript, TypeScript, React, Node.js e PostgreSQL, desenvolvendo aplicações web e APIs REST. Gosto de entender como as aplicações funcionam e transformar ideias em soluções funcionais por meio de projetos práticos.</p>

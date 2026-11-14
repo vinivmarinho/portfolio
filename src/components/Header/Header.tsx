@@ -12,7 +12,7 @@ export default function Header() {
     };
 
     return (
-        <div className="main-header">
+        <div className="main-header" id="beginning">
 
             <div className="header-top">
                 <div className="logo-container">
@@ -29,9 +29,9 @@ export default function Header() {
                     </button>
 
                     <ul className={`nav-links ${isMenuOpen ? "active" : ""}`}>
-                        <li>Início</li>
-                        <li>Sobre</li>
-                        <li>Projetos</li>
+                        <li><a href="#beginning">Início</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#projects">Projetos</a></li>
                         <li>Habilidades</li>
                         <li>Contato</li>
                     </ul>

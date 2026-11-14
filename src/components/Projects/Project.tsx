@@ -3,7 +3,7 @@ import projeto1 from "../../assets/projeto1.png";
 import projeto2 from "../../assets/projeto2.png";
 export default function Project() {
     return(
-        <div className="project-container">
+        <div className="project-container" id="projects">
             <h1 className="project-title">Projetos</h1>
            {/*  ===========================================
                 Container de todos os cards
