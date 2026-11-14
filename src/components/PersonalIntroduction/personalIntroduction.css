@@ -8,8 +8,8 @@
     align-items: center;
     text-align: center;
     margin: auto;
-    margin-top: 6px;
-    gap: 4px;
+    margin-top: 4px;
+    gap: 8px;
 }
 
 /*  ===========================================
@@ -17,8 +17,8 @@
     ===========================================
 */
 .picture {
-    width: 100px;
-    height: 100px;
+    width: 88px;
+    height: 88px;
     object-fit: cover;
     object-position: top;
     border-radius: 50%;
@@ -34,31 +34,32 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    gap: 6px;
+    gap: 4px;
     color: var(--text-primary);
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .greeting {
-    font-size: 1.1rem;
+    font-size: 0.88rem;
     color: var(--text-secondary);
 }
 
 .name {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 600;
     color: var(--accent-primary);
     line-height: 1.2em;
 }
 
 .linkedin-button {
-  background: var(--accent-primary);
-  color: black;
-  width: 150px;
-  padding: 8px 10px;
-  border-radius: 12px;
-  border: none;
-  cursor: pointer;
+    background: var(--accent-primary);
+    color: black;
+    width: 140px;
+    padding: 8px 10px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.82rem;
 }
 
 /*  ===========================================
@@ -118,6 +119,7 @@
         width: 180px;
         height: 180px;
     }
+
     .greeting {
         font-size: 1.1rem;
     }

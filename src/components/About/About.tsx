@@ -1,5 +1,5 @@
 import "./about.css";
-export function About() {
+export default function About() {
     return(
         <div className="about-container">
             <h2 className="about-title">Sobre Mim</h2>
