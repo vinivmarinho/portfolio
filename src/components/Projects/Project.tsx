@@ -1,6 +1,7 @@
 import "./project.css";
 import projeto1 from "../../assets/projeto1.png";
 import projeto2 from "../../assets/projeto2.png";
+import ProjectCard from "../ProjectCard/ProjectCard";
 export default function Project() {
     return(
         <div className="project-container" id="projects">
@@ -10,52 +11,19 @@ export default function Project() {
                 ===========================================
             */}
             <div className="project-cards">
-                {/* ===========================================
-                    Primeiro projeto
-                    ===========================================
-                */}
-                <article className="project-card">
+                <ProjectCard 
+                image={projeto1}
+                projectName="Gestão de Alunos"
+                projectDescription="Aplicação Full Stack para gestão de alunos, turmas e mensalidades."
+                projectLink="https://gestao-alunos.viniciusmarinho.dev.br/"
+                />
 
-                    <div className="project-preview">
-                        <img src={projeto1} alt="" />
-                    </div>
-                    
-                    <div className="project-content">
-                        <h3 className="project-name">Gestão de alunos</h3>
-
-                        <p> Sistema completo para gerenciar alunos, turmas e mensalidades.</p>
-
-                        <a 
-                        href="https://gestao-alunos.viniciusmarinho.dev.br/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        > Ver projeto <span>→</span></a>
-                    </div>
-                </article>
-
-                {/* ===========================================
-                    Segundo projeto
-                    ===========================================
-                */}
-                <article className="project-card">
-
-                    <div className="project-preview">
-                        <img src={projeto2} alt="" />
-                    </div>
-                    
-                    <div className="project-content">
-                        <h3 className="project-name">Sistema de gestão de peças de crochê</h3>
-
-                        <p> Sistema completo para gerenciar peças.</p>
-
-                        <a 
-                        href="https://mimos-crochet.vercel.app/catalog"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        > Ver projeto <span>→</span></a>
-                    </div>
-                </article>
-
+                <ProjectCard 
+                image={projeto2}
+                projectName="Crochê - Catálogo e Gestão de Produtos"
+                projectDescription="Aplicação Full Stack com catálogo digital e painel administrativo para gerenciamento de peças artesanais."
+                projectLink="https://mimos-crochet.vercel.app/catalog"
+                />
             </div>
         </div>
     )
