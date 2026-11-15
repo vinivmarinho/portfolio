@@ -1,0 +1,77 @@
+/*  ===========================================
+    Container principal da seção de"skills"
+    ===========================================
+*/
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: var(--accent-primary);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 12px 10px;
+}
+.skills-title {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+/*  ===========================================
+    Container das skills
+    ===========================================
+*/
+.skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+/*  ===========================================
+    Div de cada skill
+    ===========================================
+*/
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  padding: 14px 8px;
+
+  background-color: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(243, 115, 21, 0.15);
+  border-radius: 16px;
+
+  transition: 0.3s ease;
+}
+.skill-card span {
+    color: #f5f0e8;
+    font-size: 13px;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .skills-title {
+    font-size: 1.8rem;
+    text-align: center;
+    }   
+    .skills {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .skill-card {
+        gap: 15px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .skills-title {
+        font-size: 2.2rem;
+    }
+    .skills {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+}
