@@ -1,5 +1,5 @@
 import "./skills.css";
-import { JavaScriptIcon, TypeScriptIcon, ReactIcon, NodeIcon, PostgreSqlIcon, GitIcon} from "../Icons/Icons";
+import { JavaScriptIcon, TypeScriptIcon, ReactIcon, NodeIcon, PostgreSqlIcon, GitIcon, UbuntuIcon, HtmlIcon, CssIcon, ExpressIcon} from "../Icons/Icons";
 
 export default function Skill() {
     return(
@@ -35,6 +35,26 @@ export default function Skill() {
                  <div className="skill-card">
                    <GitIcon />
                    <span>Git</span>
+                </div>
+
+                <div className="skill-card">
+                   <UbuntuIcon />
+                   <span>Ubuntu</span>
+                </div>
+
+                 <div className="skill-card">
+                   <HtmlIcon />
+                   <span>HTML5</span>
+                </div>
+
+                <div className="skill-card">
+                   <CssIcon />
+                   <span>CSS3</span>
+                </div>
+
+                <div className="skill-card">
+                   <ExpressIcon />
+                   <span>Express.js</span>
                 </div>
             </div>
         </div>
