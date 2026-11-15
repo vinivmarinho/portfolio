@@ -16,7 +16,9 @@ export default function ProjectCard({
         <article className="project-card">
 
             <div className="project-preview">
-                <img src={image} alt="" />
+                <a href={projectLink} target="_blank" rel="noopener noreferrer">
+                    <img src={image} alt="" />
+                </a>
             </div>
             
             <div className="project-content">

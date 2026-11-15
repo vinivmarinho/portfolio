@@ -115,12 +115,20 @@
     ===========================================
 */
 @media (min-width: 1024px) {
+    .personal-introduction {
+        gap: 12px;
+    }
+
     .picture {
-        width: 180px;
-        height: 180px;
+        width: 150px;
+        height: 150px;
     }
 
     .greeting {
-        font-size: 1.1rem;
+        font-size: 0.95rem;
+    }
+
+    .name {
+        font-size: clamp(1.5rem, 4vw, 2rem);
     }
 }

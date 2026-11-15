@@ -67,11 +67,22 @@
 }
 
 @media (min-width: 1024px) {
-    .skills-title {
-        font-size: 2.2rem;
-    }
-    .skills {
-        grid-template-columns: repeat(5, 1fr);
+    .skills-container {
+        gap: 10px;
+        padding: 10px 8px;
     }
 
+    .skills-title {
+        font-size: 1.8rem;
+    }
+
+    .skills {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 8px;
+    }
+
+    .skill-card {
+        padding: 12px 8px;
+        gap: 10px;
+    }
 }

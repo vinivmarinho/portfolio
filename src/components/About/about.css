@@ -41,11 +41,16 @@
 }
 
 @media (min-width: 1024px) {
+    .about-container {
+        gap: 10px;
+        padding: 10px 8px;
+    }
+
     .about-title {
-        font-size: 2.2rem;
+        font-size: 1.8rem;
     }
 
     .about-description {
-        font-size: 1.15rem;
+        font-size: 1rem;
     }
 }

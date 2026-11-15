@@ -3,7 +3,7 @@ import { JavaScriptIcon, TypeScriptIcon, ReactIcon, NodeIcon, PostgreSqlIcon, Gi
 
 export default function Skill() {
     return(
-        <div className="skills-container">
+        <div className="skills-container" id="skills">
             <h1 className="skills-title">Habilidades</h1>
 
             <div className="skills">

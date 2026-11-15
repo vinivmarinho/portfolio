@@ -32,7 +32,7 @@ export default function Header() {
                         <li><a href="#beginning">Início</a></li>
                         <li><a href="#about">Sobre</a></li>
                         <li><a href="#projects">Projetos</a></li>
-                        <li>Habilidades</li>
+                        <li><a href="#skills">Habilidades</a></li>
                         <li>Contato</li>
                     </ul>
                 </nav>
