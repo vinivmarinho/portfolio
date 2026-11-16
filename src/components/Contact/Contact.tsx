@@ -39,8 +39,3 @@ export default function Contact() {
         </div>
     )
 }
-
-{/* https://www.linkedin.com/in/vin%C3%ADcius-marinho-376a8a365/
-    https://github.com/vinivmarinho
-    
-    */}

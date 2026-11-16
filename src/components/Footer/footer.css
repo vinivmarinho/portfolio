@@ -1,0 +1,19 @@
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+    padding: 24px 0;
+}
+
+.footer-container p {
+  color: var(--text-secondary);
+  font-size: 14px;
+  white-space: nowrap;
+}
+.footer-line {
+    flex: 1;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
